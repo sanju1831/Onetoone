@@ -44,11 +44,5 @@ public class Person {
 	public void setPhone(long phone) {
 		this.phone = phone;
 	}
-	@Override
-	public String toString() {
-		return "Person [id=" + id + ", name=" + name + ", age=" + age + ", address=" + address + ", phone=" + phone
-				+ "]";
-	}
 	
-
 }
